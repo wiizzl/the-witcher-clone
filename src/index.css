@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: Beaufort;
+    src: url("/fonts/beaufort-pro/Fontspring-DEMO-BeauReg_-iF66728d559407c.otf") format("opentype");
+}
+
+@theme {
+    --font-beaufort: "Beaufort", sans-serif;
+
+    --color-primary: #989267;
+}
